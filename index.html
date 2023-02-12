@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="list-image">
+        <image
+          src="https://i.ytimg.com/vi/Jf85bs9NFCU/maxresdefault.jpg"
+          class="image"
+        >
+        </image>
+        <image
+          src="https://i.ytimg.com/vi/Jf85bs9NFCU/maxresdefault.jpg"
+          class="image"
+        >
+        </image>
+      </div>
+      <form name="cal" action="" class="form-sum">
+        <input type="text" class="input1 input" placeholder="Nhập số a" />
+        <input type="text" class="input2 input" placeholder="Nhập số b" />
+        <button class="button-sum" onclick="calculator()" type="button">
+          Tính Tổng a và b
+        </button>
+        <!-- <input type="button" onclick="calculator();" value="Tính tổng" /> -->
+      </form>
+      <div class="result">
+        <p class="display-result">Kết quả của phép tính tổng a và b là :</p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
